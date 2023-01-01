@@ -1,0 +1,26 @@
+.hero-main { 
+    background: url('../../assets/imges/banner-bg.jpg') no-repeat top right/cover;
+      background-color: var(--color-dark) ;
+       color: var(--color-light);
+       border-radius:var(--bordar-radius-primary);
+       padding: var(--padding-primary);
+}
+.hero-titl{
+    max-width: 500px;
+}
+.hero-titl{
+    font-size: 60px;
+    text-transform: uppercase;
+    margin-bottom:calc(var(--margin-primary) / 2);
+    font-weight: var(--font-weight-bold);
+}
+.hero-titl em{
+    font-style: normal;
+    color:var(--color-primary);
+}
+.hero-subtitl{
+    font-size: 20px;
+    color: var(--color-light);
+    font-weight:var(--font-weight-normal);
+    margin-bottom: calc(var(--margin-primary) / 2);
+}
